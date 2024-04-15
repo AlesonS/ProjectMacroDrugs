@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+}
+header {
+    width: 77;
+    height: 200px;
+    background-color: #ffe9ff;
+    float: left;
+    margin: 1%;
+}
+nav {
+    width: 77;
+    height: 100px;
+    background-color: #ff3300;
+    float: left;
+    margin: 1%;
+}
