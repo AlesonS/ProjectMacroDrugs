@@ -6,12 +6,31 @@
     <link href='Macro_Drugs.css' rel='stylesheet'>
     <script src='macrodrugjs.js'></script>
     <title>Macro Drugs</title>
+    <style>
+        input[type="search"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+        }
+    </style>
 </head>
 <body>
     <header class="header-container">
         <div>
-            <img id='logo'src="sem bg.png" alt="">
-            <p><input id="pesquisa" type="text" placeholder="pesquisar"></p>
+            <img id='logo'src="sem bg.png" width="150" height="150">
+            <p><input id="pesquisa" type="text" placeholder="pesquisar" ></p>
         <div class="pesquisa">
             <form action="/search" method="get">
         </div>

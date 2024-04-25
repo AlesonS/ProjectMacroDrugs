@@ -32,8 +32,8 @@ button {
 
 #logo {
     position: relative;
-    top: 25px;
-    right: 300px;
+    top: 70px;
+    right: 600px;
 }
 
 #carrinho {
@@ -48,7 +48,7 @@ button {
     width: 25px;
     position: relative;
     left: 500px;
-    bottom: 101px;
+    bottom: 120px;
 }
 
 /*#pesquisa{
